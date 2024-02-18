@@ -1,6 +1,6 @@
 import json
 
-def select_execut():
+def sort_execution():
     with open("operations.json", "r", encoding="utf-8") as f:
         transfers = json.load(f)
 
@@ -11,4 +11,3 @@ def select_execut():
             transfers_executed.append(transfer)
 
     return transfers_executed
-

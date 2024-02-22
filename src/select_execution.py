@@ -11,3 +11,6 @@ def sort_execution():
             transfers_executed.append(transfer)
 
     return transfers_executed
+
+
+#print(sort_execution())

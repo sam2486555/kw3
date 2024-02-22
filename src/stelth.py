@@ -16,4 +16,4 @@ def stelth_star():
     # print(len(transfer_by_stars))
     return transfer_by_stars
 
-print(stelth_star())
+#print(stelth_star())

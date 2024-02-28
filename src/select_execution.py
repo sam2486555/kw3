@@ -1,7 +1,7 @@
 import json
 
 def sort_execution():
-    with open("operations.json", "r", encoding="utf-8") as f:
+    with open("src/operations.json", "r", encoding="utf-8") as f:
         transfers = json.load(f)
 
     transfers_executed = []

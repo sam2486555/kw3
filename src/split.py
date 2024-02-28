@@ -1,4 +1,4 @@
-from stelth import stelth_star
+from src.stelth import stelth_star
 
 def separation_line():
     separation = stelth_star()

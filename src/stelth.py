@@ -1,4 +1,4 @@
-from select_by_time import last_sel
+from src.select_by_time import last_sel
 
 transfer_by_stars = last_sel()
 def stelth_star():
@@ -12,8 +12,6 @@ def stelth_star():
         if transfer.get('to'):
             transfer['to'] = transfer['to'][4]+"**"+transfer['to'][-4:]
 
-    # print(transfer_by_stars)
-    # print(len(transfer_by_stars))
     return transfer_by_stars
 
 #print(stelth_star())

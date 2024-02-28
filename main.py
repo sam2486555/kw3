@@ -1,5 +1,4 @@
-from split import separation_line
-
+from src.split import separation_line
 
 def output():
     output_display = separation_line()
